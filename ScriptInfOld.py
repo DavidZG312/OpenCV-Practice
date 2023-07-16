@@ -3,7 +3,12 @@ import pyautogui as pa
 import random
 import time
 time.sleep(2)
-for i in range(3):
+for i in range(120):
+    time.sleep(.3)
+    pa.click(x=895, y=559)
+    time.sleep(.3)
+    pa.click(x=848, y=929)
+""" for i in range(3):
     time.sleep(.2)
     pa.click(x=874, y=546)
     time.sleep(.2)
@@ -13,7 +18,7 @@ for i in range(3):
     time.sleep(.2)
     pa.click(x=920, y=782)
     time.sleep(.2)
-    pa.click(x=971, y=632)
+    pa.click(x=971, y=632) """
 
     # time.sleep(.2)
     # pa.click(x=874, y=546)
