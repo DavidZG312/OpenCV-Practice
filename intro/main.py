@@ -2,8 +2,8 @@ import cv2 as cv
 import numpy as np
 
 
-haystack_img = cv.imread('Cristala Screen.PNG', cv.IMREAD_UNCHANGED)
-needle_img = cv.imread('Frag Brillantez.PNG', cv.IMREAD_UNCHANGED)
+haystack_img = cv.imread('intro/Cristala Screen.PNG', cv.IMREAD_UNCHANGED)
+needle_img = cv.imread('intro/itemsInf/Frag Brillantez.PNG', cv.IMREAD_UNCHANGED)
 
 
 result = cv.matchTemplate(haystack_img, needle_img,cv.TM_CCOEFF_NORMED) 
