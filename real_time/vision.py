@@ -12,7 +12,7 @@ class Vision:
 
 
     #constructor
-    def _init_(self,nedle_img_path, method = cv.TM_CCOEFF_NORMED):
+    def __init__(self,nedle_img_path, method = cv.TM_CCOEFF_NORMED):
         self.needle_img = cv.imread(nedle_img_path, cv.IMREAD_UNCHANGED)
 
         self.needle_w = self.needle_img.shape[1]

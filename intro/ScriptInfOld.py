@@ -2,12 +2,12 @@ import keyboard
 import pyautogui as pa
 import random
 import time
-""" time.sleep(2)
-for i in range(63):
+time.sleep(2)
+for i in range(60):
     time.sleep(.3)
     pa.click(x=895, y=559)
     time.sleep(.3)
-    pa.click(x=848, y=929) """
+    pa.click(x=848, y=929)
 """ for i in range(3):
     time.sleep(.2)
     pa.click(x=874, y=546)
@@ -32,14 +32,14 @@ for i in range(63):
     # pa.click(x=938, y=660) 
 
 ##TAKE BB
-time.sleep(2)
+""" time.sleep(2)
 for i in range(20):
     time.sleep(.5)
     pa.click(x=1063, y=624)
     time.sleep(.5)
     pa.click(x=1152, y=623)
     time.sleep(.5)
-    pa.click(x=952, y=682)
+    pa.click(x=952, y=682) """
 
 ##for i in range(21):
 ##ANTORCHAS
